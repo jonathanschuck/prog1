@@ -6,13 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExercicioUm",
+            "request": "launch",
+            "mainClass": "ExercicioUm",
+            "projectName": "prog1_4e1646c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lista1",
+            "request": "launch",
+            "mainClass": "Lista1",
+            "projectName": "prog1_4e1646c3"
+        },
+        {
+            "type": "java",
             "name": "Launch Programa",
             "request": "launch",
             "mainClass": "Programa",
             "projectName": "prog1_4e1646c3"
         },
         {
-            "name": "(gdb) Iniciar",
+            "name": "Programa",
             "type": "cppdbg",
             "request": "launch",
             "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.exe",
